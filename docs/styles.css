@@ -38,8 +38,8 @@ body {
   opacity: 100%;
   z-index: 2;
   margin: 100px;
-
   padding: 24px;
+  box-shadow: #3e2a1c3c 0px 7px 29px 0px;
 }
 
 .content {
