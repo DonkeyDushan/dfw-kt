@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", serif;
+  color: #3e2a1c;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: url("assets/paper.jpg") no-repeat center center/cover;
+  background-color: #a3a3a33b;
+  background-blend-mode: color-burn;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+a {
+  color: inherit;
+}
+
+header {
+  /* background: url("assets/header-bg.jpg") no-repeat center center/cover; */
+  padding: 50px 20px;
+  background-blend-mode: multiply;
+  border-bottom: 5px double #3e2a1c;
+}
+
+section {
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+  display: grid;
+  gap: 24px;
+  padding: 48px;
+}
+
+footer {
+  background: #3e2a1c;
+  color: white;
+  padding: 20px;
+}
