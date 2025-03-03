@@ -55,7 +55,13 @@ body {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 72px;
+  color: #4a6147;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 52px;
+    marign-bottom: 0;
+  }
 }
 h2 {
   font-size: 38px;
@@ -71,7 +77,7 @@ h2 {
   margin-bottom: 12px;
 
   @media only screen and (max-width: 600px) {
-    margin-bottom: 6px;
+    margin-bottom: 0px;
   }
 }
 
@@ -84,7 +90,7 @@ header {
   padding: 30px;
   padding-bottom: 0;
   background-blend-mode: multiply;
-  border: 5px double rgb(100, 31, 45);
+  border: 5px double #4a6147;
   border-radius: 100%;
   height: 400px;
   width: 400px;
